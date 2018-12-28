@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\simci\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\simci\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\simci\bin;C:\Program Files\Dell\DW WLAN Card;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Amazon\AWSCLI;C:\WINDOWS\System32\OpenSSH;C:\Ruby25-x64\bin;C:\Users\simci\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\simci\AppData\Local\Programs\Python\Python36-32;C:\Users\simci\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Heroku\bin;C:\Users\simci\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\3.6\bin.;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.11.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "ushare",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dansim76/ushare.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dansim76/ushare/issues"
+    },
+    "homepage": "https://github.com/dansim76/ushare#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c node server.js
+  Directory: C:\Users\simci\ushare
+  Output:
+  
+      at ProcessTermError.Error (native)
+      at ProcessTermError.MessageError (C:\Users\simci\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Users\simci\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Users\simci\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:106:13)
+      at ChildProcess.emit (events.js:191:7)
+      at maybeClose (internal/child_process.js:920:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
